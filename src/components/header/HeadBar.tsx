@@ -4,7 +4,7 @@ import React from 'react'
 import { Box } from '@primer/react'
 import { color } from '@/constants'
 
-export default function SevenFieldHeadBar() {
+export default function HeadBar() {
   return (
     <Box
       sx={{

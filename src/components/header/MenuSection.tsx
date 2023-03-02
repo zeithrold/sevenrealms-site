@@ -11,17 +11,17 @@ interface MenuListSubItem {
 interface MenuListItem {
   title: string;
   url?: string;
-  subItems?: MenuListSubItem[]
+  subSections?: MenuListSubItem[]
 }
 
-const menuList: MenuListItem[] = [
+const sections: MenuListItem[] = [
   {
     title: '首页',
     url: '/'
   },
   {
     title: '分部介绍',
-    subItems: [
+    subSections: [
       {
         title: 'SFP',
         url: '/department/sfp'
@@ -31,20 +31,20 @@ const menuList: MenuListItem[] = [
 ]
 
 
-export default function Menu() {
+export default function MenuSection() {
   return (
     <Box
-      display={['none', 'none', 'none', 'flex']}
+      display={['none', 'flex']}
       sx={{
         flexDirection: 'row',
         alignItems: 'center',
       }}
 
     >
-      {menuList.map((listItem) => {
+      {sections.map((sectionItem) => {
         return (
-          <Box key={listItem.url}>
-            <span>{listItem.title}</span>
+          <Box key={sectionItem.url}>
+            <span>{sectionItem.title}</span>
           </Box>
         )
       })}

@@ -1,7 +1,6 @@
 import Provider from './provider'
-import { Head } from '@/components/head'
 import { Noto_Sans_SC } from 'next/font/google'
-import { HeadBar } from '@/components/headbar'
+import { Header } from '@/components/header'
 
 export const metadata = {
   title: 'Create Next App',
@@ -26,8 +25,7 @@ export default function RootLayout({
           margin: '0'
         }}>
         <Provider>
-          <Head />
-          <HeadBar />
+          <Header />
           {children}
         </Provider>
       </body>

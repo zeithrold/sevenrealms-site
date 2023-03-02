@@ -1,3 +1,5 @@
+'use client'
+
 import { Box } from '@primer/react'
 import React from 'react'
 
@@ -13,7 +15,7 @@ export default function IndexSection({ children }: IndexSectionProps) {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        scrollSnapAlign: 'center'
+        scrollSnapAlign: 'start'
       }}
     >
       {children}
