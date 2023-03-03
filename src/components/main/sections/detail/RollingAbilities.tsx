@@ -10,6 +10,7 @@ const abilities = [
   "打WOTA艺",
   "Rock",
   "Cosplay",
+  "跳一支舞",
   "成为偶像出道",
   "搭建神经网络",
 ]
