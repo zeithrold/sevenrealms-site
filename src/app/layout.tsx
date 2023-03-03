@@ -1,6 +1,7 @@
 import Provider from './provider'
 import { Noto_Sans_SC } from 'next/font/google'
 import { Header } from '@/components/header'
+import { Analytics } from '@vercel/analytics/react'
 
 export const metadata = {
   // title: 'Create Next App',
@@ -33,6 +34,7 @@ export default function RootLayout({
           <Header />
           {children}
         </Provider>
+        <Analytics />
       </body>
     </html>
   )
