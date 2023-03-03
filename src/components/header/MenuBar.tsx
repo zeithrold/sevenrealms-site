@@ -14,8 +14,10 @@ export default function MenuBar() {
       justifyContent={['center', 'space-between']}
     >
       <Box letterSpacing={['12px', '0px']}>
-        <Heading>
-          动漫协会
+        <Heading sx={{
+          fontSize: ["1.5em", "2em"]
+        }}>
+          七域动漫协会
         </Heading>
       </Box>
       <MenuSection />

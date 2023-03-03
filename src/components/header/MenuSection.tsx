@@ -43,7 +43,10 @@ export default function MenuSection() {
     >
       {sections.map((sectionItem) => {
         return (
-          <Box key={sectionItem.url}>
+          <Box key={sectionItem.url} sx={{
+            fontWeight: '700',
+            mx: '10px'
+          }}>
             <span>{sectionItem.title}</span>
           </Box>
         )
