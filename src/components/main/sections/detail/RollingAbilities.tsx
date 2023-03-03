@@ -43,7 +43,7 @@ export default function RollingAbilities() {
   return (
     <Box
       height="1.5em"
-      fontSize='2em'
+      fontSize='1.75em'
       overflowY="hidden"
     >
       <motion.div
