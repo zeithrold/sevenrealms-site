@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Box, Heading } from "@primer/react";
+import { Box } from "@primer/react";
 
 import RollingAbilities from "./RollingAbilities";
 

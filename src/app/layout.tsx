@@ -1,5 +1,3 @@
-import { Noto_Sans_SC } from "next/font/google";
-
 import Footer from "@/components/footer/Footer";
 import { Header } from "@/components/header";
 import { Analytics } from "@vercel/analytics/react";
