@@ -31,6 +31,7 @@ export default function RootLayout({
       <body
         className={notoSans.className}>
         <Provider>
+          
           <Header />
           {children}
         </Provider>
