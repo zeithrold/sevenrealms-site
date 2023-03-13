@@ -10,10 +10,10 @@ import triangle1 from '$public/assets/background/triangle1.svg'
 
 
 const fileList = [
-  "COS部集体照.jpg",
-  "SFP集体照.jpg",
-  "宅舞部集体照.jpg",
-  "轻音部集体照.jpg",
+  "COS部集体照.webp",
+  "SFP集体照.webp",
+  "宅舞部集体照.webp",
+  "轻音部集体照.webp",
 ];
 
 export default function DetailSection() {
