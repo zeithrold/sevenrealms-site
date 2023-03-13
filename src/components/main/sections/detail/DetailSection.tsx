@@ -44,7 +44,7 @@ export default function DetailSection() {
               fileList.map(fileName => {
                 return (
                   <Box key={fileName}>
-                    <img src={imageLoader({src: `carousel/${fileName}`})} alt="" />
+                    <img src={imageLoader({src: `carousel/${fileName}?x-oss-process=image/resize,w_1200/quality,Q_90`})} alt="" />
                   </Box>
                 )
               })
