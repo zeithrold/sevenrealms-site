@@ -1,8 +1,9 @@
 import React from "react";
+
 import { Box } from "@primer/react";
+
 import IndexSection from "../../IndexSection";
 import ACGManiaText from "./ACGManiaText";
-
 
 export default function HomeSection() {
   return (
@@ -15,10 +16,7 @@ export default function HomeSection() {
         backgroundSize: "700px auto",
       }}
     >
-      <Box
-        fontSize={["3em", "4em"]}
-        fontWeight="700"
-      >
+      <Box fontSize={["3em", "4em"]} fontWeight="700">
         一个{<ACGManiaText />}的家
       </Box>
     </IndexSection>

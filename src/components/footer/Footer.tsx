@@ -1,7 +1,8 @@
 "use client";
-import { Box } from "@primer/react";
-import { HeartFillIcon } from "@primer/octicons-react";
-import React from "react";
+import React from 'react';
+
+import { HeartFillIcon } from '@primer/octicons-react';
+import { Box } from '@primer/react';
 
 const currentYear = new Date().getFullYear();
 

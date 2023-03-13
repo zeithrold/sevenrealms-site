@@ -1,10 +1,10 @@
 "use client";
 
-import { Box } from "@primer/react";
-import React from "react";
 import { motion, useAnimationControls } from "framer-motion";
+import React from "react";
 import { useInterval } from "usehooks-ts";
 
+import { Box } from "@primer/react";
 
 const abilities = [
   "畅聊ACG",

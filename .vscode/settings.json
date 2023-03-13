@@ -6,5 +6,7 @@
     "GitHub.vscode-pull-request-github",
     "editorconfog.editorconfig",
     "esbenp.prettier-vscode"
-  ]
+  ],
+  "importSorter.generalConfiguration.sortOnBeforeSave": true,
+  "editor.formatOnSave": true
 }

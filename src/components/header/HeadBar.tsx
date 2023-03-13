@@ -1,8 +1,9 @@
-'use client'
+"use client";
 
-import React from 'react'
-import { Box } from '@primer/react'
-import { color } from '@/constants'
+import React from 'react';
+
+import { color } from '@/constants';
+import { Box } from '@primer/react';
 
 export default function HeadBar() {
   return (
@@ -10,15 +11,17 @@ export default function HeadBar() {
       sx={{
         // width: '100%',
         backgroundColor: color.SEVENFIELD_PRIMARY,
-        padding: '8px'
+        padding: "8px",
       }}
     >
       <span
         style={{
-          color: 'black',
-          fontWeight: 'bold'
+          color: "black",
+          fontWeight: "bold",
         }}
-      >SevenField 网站群</span>
+      >
+        SevenField 网站群
+      </span>
     </Box>
-  )
+  );
 }

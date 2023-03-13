@@ -1,6 +1,7 @@
-'use client';
-import React from "react";
+"use client";
 import { motion, useScroll, useSpring } from "framer-motion";
+import React from "react";
+
 import { color } from "@/constants";
 
 export default function ProgressBar() {
@@ -19,9 +20,9 @@ export default function ProgressBar() {
         right: 0,
         height: "10px",
         transformOrigin: "0%",
-        scaleX: scrollYProgress,
+        scaleX: scaleX,
         backgroundColor: color.SEVENFIELD_PRIMARY,
-        zIndex: 100
+        zIndex: 100,
       }}
     />
   );
