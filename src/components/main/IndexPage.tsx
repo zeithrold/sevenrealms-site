@@ -11,7 +11,6 @@ export default function IndexPage() {
     <>
       <HomeSection />
       <DetailSection />
-      <IndexSection>good</IndexSection>
     </>
   )
 }

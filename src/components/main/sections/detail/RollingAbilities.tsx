@@ -13,6 +13,7 @@ const abilities = [
   "跳一支舞",
   "成为偶像出道",
   "搭建神经网络",
+  "做你想做的"
 ]
 
 export default function RollingAbilities() {

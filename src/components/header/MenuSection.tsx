@@ -21,6 +21,7 @@ const sections: MenuListItem[] = [
   },
   {
     title: '分部介绍',
+    url: '#',
     subSections: [
       {
         title: 'SFP',
@@ -47,7 +48,7 @@ export default function MenuSection() {
             fontWeight: '700',
             mx: '10px'
           }}>
-            <span>{sectionItem.title}</span>
+            <span key={sectionItem.title}>{sectionItem.title}</span>
           </Box>
         )
       })}

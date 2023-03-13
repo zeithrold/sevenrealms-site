@@ -12,6 +12,7 @@ export default function IndexSection({ children }: IndexSectionProps) {
     <Box
       sx={{
         height: '100vh',
+        padding: '12px',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
