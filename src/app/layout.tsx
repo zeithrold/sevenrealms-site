@@ -2,6 +2,7 @@ import Provider from './provider'
 import { Noto_Sans_SC } from 'next/font/google'
 import { Header } from '@/components/header'
 import { Analytics } from '@vercel/analytics/react'
+import Footer from '@/components/footer/Footer'
 
 export const metadata = {
   // title: 'Create Next App',
@@ -16,10 +17,6 @@ export const metadata = {
   
 }
 
-const notoSans = Noto_Sans_SC({
-  weight: ["400", "700", "100", "300", "900", "500"],
-  subsets: ["latin"]
-})
 
 export default function RootLayout({
   children,
@@ -28,12 +25,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={notoSans.className}>
+      <body>
         <Provider>
-          
           <Header />
           {children}
+          <Footer />
         </Provider>
         <Analytics />
       </body>

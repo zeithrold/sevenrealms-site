@@ -6,7 +6,7 @@ export default function ACGManiaText() {
   return (
       <motion.div
         style={{
-          background: `linear-gradient(to right, ${color.SEVENFIELD_PRIMARY} var(--label-range), white var(--label-range))`
+          background: `linear-gradient(to right, ${color.SEVENFIELD_PRIMARY} var(--label-range), rgba(255,255,255,0) var(--label-range))`
         }}
         transition={{
           delay: 1,

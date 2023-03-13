@@ -6,6 +6,8 @@ import { Box } from "@primer/react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.css";
 import imageLoader from "@/lib/imageLoader";
+import triangle1 from '$public/assets/background/triangle1.svg'
+
 
 const fileList = [
   "COS部集体照.jpg",
@@ -16,10 +18,18 @@ const fileList = [
 
 export default function DetailSection() {
   return (
-    <IndexSection>
+    <IndexSection
+      sx={{
+        backgroundImage: 'url("/assets/background/triangle1.svg")',
+        // backgroundImage: "/favicon.ico",
+        backgroundPosition: 'top left',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: "850px auto"
+      }}
+    >
       <Box>
         <Title />
-        <h2 style={{textAlign: 'center'}}>七域拥有着无限的可能，已经为你准备好舞台。</h2>
+        <h3 style={{textAlign: 'center', marginTop: '8px'}}>七域拥有着无限的可能<br />已经为你准备好舞台</h3>
         <Box maxWidth={["100%", "100%", "600px", "600px"]} 
           overflowY="hidden"
         alignContent="center" display="flex">

@@ -10,6 +10,7 @@
     "dev-turbo": "next dev --turbo"
   },
   "dependencies": {
+    "@primer/octicons-react": "^18.2.0",
     "@primer/react": "^35.20.0",
     "@types/node": "18.14.2",
     "@types/react": "18.0.28",
