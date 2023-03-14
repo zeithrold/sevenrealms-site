@@ -8,7 +8,7 @@ const nextConfig = {
       source: "/:path*",
       headers: [
         {
-          key: "X-SevenField-Engine",
+          key: "X-SevenRealms-Engine",
           value: "1.0.0-dev"
         }
       ]
@@ -19,7 +19,7 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'storage.zeithrold.com',
-        pathname: '/sevenfield/**'
+        pathname: '/sevenrealms/**'
       }
     ]
   }

@@ -13,7 +13,7 @@ export const metadata = {
       name: "七域动漫协会",
     },
   ],
-  generator: "SevenField Engine",
+  generator: "SevenRealms Engine",
 };
 
 export default function RootLayout({

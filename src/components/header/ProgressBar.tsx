@@ -21,7 +21,7 @@ export default function ProgressBar() {
         height: "10px",
         transformOrigin: "0%",
         scaleX: scaleX,
-        backgroundColor: color.SEVENFIELD_PRIMARY,
+        backgroundColor: color.SEVENREALMS_PRIMARY,
         zIndex: 100,
       }}
     />

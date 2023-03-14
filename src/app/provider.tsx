@@ -11,7 +11,7 @@ const notoSans = Noto_Sans_SC({
 
 export default function Provider({ children }: { children: React.ReactNode }) {
   console.log(
-    "%cPowered By SevenField Engine",
+    "%cPowered By SevenRealms Engine",
     "background-color: #FFD800; font-size: 24px; font-weight: bolder; padding: 4px"
   );
   // console.log(
