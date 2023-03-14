@@ -1,8 +1,8 @@
 "use client";
-import React from 'react';
+import React from "react";
 
-import { HeartFillIcon } from '@primer/octicons-react';
-import { Box } from '@primer/react';
+import { HeartFillIcon } from "@primer/octicons-react";
+import { Box } from "@primer/react";
 
 const currentYear = new Date().getFullYear();
 
@@ -32,7 +32,7 @@ export default function Footer() {
         </Box>
       </Box>
       <Box width={[1, 1 / 2]}>
-        <h4 color="#000000">友情链接</h4>
+        <h4 color="#000000"></h4>
       </Box>
       <Box
         width={1}
@@ -46,9 +46,9 @@ export default function Footer() {
         }}
       >
         <small>
-        Copyright © {currentYear} - 大连理工大学七域动漫协会
-        <br />
-        Made with <HeartFillIcon size={16} /> by 技术部
+          Copyright © {currentYear} - 大连理工大学七域动漫协会
+          <br />
+          Made with <HeartFillIcon size={16} /> by 技术部
         </small>
       </Box>
     </Box>
